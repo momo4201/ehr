@@ -21,7 +21,7 @@ export function Navigation() {
                 <Hospital className="text-white" size={16} />
               </div>
               <div>
-                <h1 className="text-xl font-semibold text-gray-800 dark:text-white">MedCare Pro</h1>
+                <h1 className="text-xl font-semibold text-gray-800 dark:text-white">EHR</h1>
                 <p className="text-xs text-gray-500 dark:text-gray-400">Hospital Management</p>
               </div>
             </div>

@@ -31,7 +31,7 @@ export default function Login() {
     setIsLoading(true);
     try {
       await login(data);
-      toast({ title: 'Login successful', description: 'Welcome to MedCare Pro' });
+      toast({ title: 'Login successful', description: 'Welcome to EHR' });
       
       // Redirect based on role
       if (data.role === 'patient') {
@@ -57,7 +57,7 @@ export default function Login() {
           <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
             <Hospital className="text-white" size={32} />
           </div>
-          <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">MedCare Pro</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">EHR</h2>
           <p className="text-gray-600 dark:text-gray-400 mt-2">Hospital Management System</p>
         </CardHeader>
         
